@@ -46,7 +46,7 @@ h1{
 
 .butter {
     position: fixed;
-    transform: scale(10.75);
+    transform: scale(.25);
     right: -100px; bottom: -100px;
 }
 

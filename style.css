@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    background-color: #EFD09E;
+    font-family: "Roboto Slab";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    font-family: "Roboto Slab";
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+}
+
+.results {
+    display: flex;
+    min-height: 55vh;
+    min-width: none;
+    padding: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.result {
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.result img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.butter {
+    position: fixed;
+    transform: scale(.75);
+    right: -100px; bottom: -100px;
+}
+
+.buttons {
+    background-origin: padding-box;
+    display: flex;
+    border-color: brown;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-family: "Roboto Slab";
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+    background-color: rgb(7, 175, 111);
+    border: 0;
+    border-color: black;
+    border-style: solid;
+    font-size: 30px;
+    padding: 10px;
+    margin: 60px;
+    width: 150px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: rgb(6, 133, 84);
+    border-color: black;
+    flex-grow: inherit;
+    background-clip: border-box;
+    transform: scale(.9);
+}

@@ -1,3 +1,4 @@
+/* Import a font from this link to use here */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
@@ -10,6 +11,7 @@ body {
     height: 100vh;
     margin: 0;
 }
+
 h1{
     font-family: "Roboto Slab";
     color: #FFFFFF;
@@ -42,10 +44,9 @@ h1{
     width: 100%;
 }
 
-
 .butter {
     position: fixed;
-    transform: scale(.75);
+    transform: scale(2.75);
     right: -100px; bottom: -100px;
 }
 
@@ -71,10 +72,12 @@ button {
     width: 150px;
 }
 
+/* If a mouse is hovering */
 button:hover {
     transform: scale(1.1);
 }
 
+/* If a button is being pressed */
 button:active {
     background-color: rgb(6, 133, 84);
     border-color: black;

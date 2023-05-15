@@ -20,8 +20,10 @@ h1{
 
 .results {
     display: flex;
-    min-height: 55vh;
+    min-height: none;
     min-width: none;
+    height: auto;
+    width: auto;
     padding: auto;
     background-color: white;
     align-items: center;
@@ -47,7 +49,9 @@ h1{
 .butter {
     position: fixed;
     transform: scale(.25);
-    right: -100px; bottom: -100px;
+    width: auto;
+    height: auto;
+    right: -200px; bottom: -200px;
 }
 
 .buttons {
